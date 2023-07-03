@@ -9,7 +9,7 @@ end
 
 local function scheduleChatMessage()
     while true do
-        wait(300)
+        wait(60)
 
         sendRandomLetter()
     end
